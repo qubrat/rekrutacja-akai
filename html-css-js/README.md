@@ -1,8 +1,20 @@
-<h3>AKAI - Zadanie Frontend</h3>
-<p>Upiększ ten formularz!<p>
+## Rezultat pracy:
 
-<p>Do dyspozycji masz trzy pliki odpowiedzialne za poszczególne etapy zadania: html, css i javascript.
-W każdym z tych plików znajduje się instrukcja zawierająca informację na temat tego, co należy wykonać.
-Zacznij od pliku index.html, przeanalizuj go, a następnie przejrzyj plik .css i .js. </p>
+- #### Widok podstawowy
 
-<h3>Powodzenia!</h3>
+  ![alt text](https://github.com/qubrat/rekrutacja-akai/blob/master/html-css-js/img/form.png?raw=true)
+
+- #### Formularz aktywny
+
+  ![alt text](https://github.com/qubrat/rekrutacja-akai/blob/master/html-css-js/img/form-active.png?raw=true)
+
+- #### Formularz wysłany poprawnie
+  ![alt text](https://github.com/qubrat/rekrutacja-akai/blob/master/html-css-js/img/form-sent.png?raw=true)
+
+### Walidacja
+
+Formularz jest walidowany pod kątem wprowadzenia wszystkich danych w polach tekstowych oraz zaznaczeniz minimum jednej opcji spośród dostępnych. Dodatkowo sprawdzana jest poprawność adresu e-mail pod kątem formatu (tzn. czy jest to tekst w formacie tekst@tekst.domena)
+
+Wysłanie formularza loguje w konsoli przeglądarki informacje o wprowadzonych danych:
+
+![alt text](https://github.com/qubrat/rekrutacja-akai/blob/master/html-css-js/img/console.png?raw=true)
