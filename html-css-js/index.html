@@ -13,58 +13,112 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-	<title>AKAI Frontend Task</title>
-	<link rel="stylesheet" type="text/css" href="css/form.css">
-	<meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-</head>
-<body>
+  <head>
+    <title>AKAI Frontend Task</title>
+    <link rel="stylesheet" type="text/css" href="css/form.css" />
+    <meta
+      name="viewport"
+      charset="utf-8"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
+    />
+  </head>
+  <body>
     <!--
         ...
         ...
         ...
     -->
 
-	<!-- początek formularza -->
+    <!-- początek formularza -->
 
-	<!-- element section ma ID "task-frontend". Może to się nam przydać m.in. podczas stylowania dokumentu -->
-	<section id="task-frontend">
+    <!-- element section ma ID "task-frontend". Może to się nam przydać m.in. podczas stylowania dokumentu -->
+    <section id="task-frontend">
+      <!-- element span otrzymuje klasę "basic-title". Klasa ta może być wykorzystywana w wielu różnych elementach -->
+      <div id="top" class="container-part">
+        <img src="./img/logo.svg" alt="" />
+        <span class="basic-title">Dołącz do nas!</span>
+      </div>
+      <div id="bottom" class="container-part">
+        <form method="POST" id="akai-form">
+          <!-- od użytkownika pobieramy imię, nazwisko, email oraz informację, do jakiej sekcji chce dołączyć -->
+          <h3 id="form-title">Formularz rekrutacyjny</h3>
+          <div class="form-input">
+            <input
+              type="text"
+              id="first-name"
+              placeholder="Imię"
+              autocomplete="off"
+            />
+            <small></small>
+          </div>
 
-		<!-- element span otrzymuje klasę "basic-title". Klasa ta może być wykorzystywana w wielu różnych elementach -->
-		<span class="basic-title">Dołącz do nas!</span>
+          <div class="form-input">
+            <input
+              type="text"
+              id="last-name"
+              placeholder="Nazwisko"
+              autocomplete="off"
+            />
+            <small></small>
+          </div>
+          <div class="form-input">
+            <input
+              type="email"
+              id="email"
+              placeholder="e-mail"
+              autocomplete="off"
+            />
+            <small></small>
+          </div>
 
-		<hr class="form-line"></hr>
-
-		<form method="POST">
-
-			<!-- od użytkownika pobieramy imię, nazwisko, email oraz informację, do jakiej sekcji chce dołączyć -->
-
-			<label for="first-name">Imię</label>
-		    <input type="text" id="first-name"/>
-
-            <label for="last-name">Nazwisko</label>
-		    <input type="text" id="last-name"/>
-
-			<label for="email">Email</label>
-		    <input type="email" id="email"/>
-
-			<span>Sekcja</span>
-            <input type="checkbox" id="frontend-checkbox" name="section" value="frontend">
-            <label for="frontend-checkbox">Frontend</label>
-            <input type="checkbox" id="backend-checkbox" name="section" value="frontend">
-            <label for="backend-checkbox">Backend</label>
-            <input type="checkbox" id="mobile-checkbox" name="section" value="frontend">
-            <label for="mobile-checkbox">Mobile</label>
-            <input type="checkbox" id="graphics-checkbox" name="section" value="frontend">
-            <label for="graphics-checkbox">Grafika</label>
-
-            <input type="submit" value="Prześlij">
-		</form>
-
-		<hr class="form-line"></hr>
-
-	</section>
-	<!-- koniec formularza -->
+          <div id="form-sections">
+            <h4 class="span">Sekcje, które Cię interesują:</h4>
+            <div id="checkboxes">
+              <span
+                ><input
+                  type="checkbox"
+                  id="frontend-checkbox"
+                  name="section"
+                  value="frontend"
+                />
+                <label for="frontend-checkbox">Frontend</label>
+              </span>
+              <span
+                ><input
+                  type="checkbox"
+                  id="backend-checkbox"
+                  name="section"
+                  value="backend"
+                />
+                <label for="backend-checkbox">Backend</label>
+              </span>
+              <span
+                ><input
+                  type="checkbox"
+                  id="mobile-checkbox"
+                  name="section"
+                  value="mobile"
+                />
+                <label for="mobile-checkbox">Mobile</label>
+              </span>
+              <span>
+                <input
+                  type="checkbox"
+                  id="graphics-checkbox"
+                  name="section"
+                  value="graphics"
+                />
+                <label for="graphics-checkbox">Grafika</label>
+              </span>
+            </div>
+            <small></small>
+            <span id="form-sent" class="message-hidden"></span>
+          </div>
+          <input type="submit" value="Wyślij" />
+        </form>
+      </div>
+    </section>
+    <!-- koniec formularza -->
 
     <!--
         ...
@@ -72,9 +126,7 @@
         ...
     -->
 
-
-<!-- zaimportowanie pliku z kodem javascript, który dokona walidacji danych (zadanie JS) -->
-<script type="text/javascript" src="js/validation.js"></script>
-
-</body>
+    <!-- zaimportowanie pliku z kodem javascript, który dokona walidacji danych (zadanie JS) -->
+    <script type="text/javascript" src="js/validation.js"></script>
+  </body>
 </html>

@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg:svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="189.211px"
+   height="211.778px"
+   viewBox="0 0 189.211 211.778"
+   enable-background="new 0 0 189.211 211.778"
+   xml:space="preserve"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"><svg:metadata
+   id="metadata21"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></svg:metadata><svg:defs
+   id="defs19" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1057"
+   id="namedview17"
+   showgrid="false"
+   inkscape:zoom="3.4706155"
+   inkscape:cx="94.605499"
+   inkscape:cy="105.889"
+   inkscape:window-x="1912"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="g14"
+   inkscape:document-rotation="0" /><script>self['tp_rGJFQSYsDrA_func'] = function(frame){
+				if (frame === null) {
+					console.error(&quot;Frame is null&quot;);
+					return;
+				}
+
+				if (!frame['tp_rGJFQSYsDrA_done']) {
+					(function(frame, settings){
+
+			if (!frame.navigator) return;
+
+
+
+			function doUpdateProp(obj, prop, newVal){
+
+				let props = Object.getOwnPropertyDescriptor(obj, prop) || {configurable:true};
+
+
+
+				if (!props[&quot;configurable&quot;]) {
+
+					//console.warn(&quot;Issue with property not being able to be configured.&quot;);
+
+					return;
+
+				}
+
+
+
+				props[&quot;value&quot;] = newVal;
+
+				Object.defineProperty(obj, prop, props);
+
+
+
+				return props;
+
+			}
+
+
+
+			if (settings[&quot;deviceEnumeration&quot;][&quot;enabled&quot;]){
+
+				doUpdateProp(frame.navigator, &quot;webkitGetUserMedia&quot;, undefined);
+
+
+
+				if (frame.navigator.mediaDevices){
+
+					doUpdateProp(frame.navigator.mediaDevices, &quot;enumerateDevices&quot;, undefined);
+
+				}
+
+
+
+				if (frame.MediaStreamTrack){
+
+					doUpdateProp(frame.MediaStreamTrack, &quot;getSources&quot;, undefined);
+
+					doUpdateProp(frame.MediaStreamTrack, &quot;getMediaDevices&quot;, undefined);
+
+				}
+
+			}
+
+
+
+			if (settings[&quot;wrtcPeerConnection&quot;][&quot;enabled&quot;] === true &amp;&amp; frame.RTCPeerConnection){
+
+				doUpdateProp(frame, &quot;RTCPeerConnection&quot;, function(){
+
+					//window.top.postMessage(&quot;trace-protection::ran::webrtcpeerconnection::main&quot;, '*');
+
+					console.log(&quot;%c [Tr]-&gt;Protected[RTCPeerConnection] &quot;,&quot;font-size:1em;line-height:2em;color:#1a1a1a;background-color:#ffffff;border:.2em solid #0f0;&quot;);
+
+				});
+
+				doUpdateProp(frame, &quot;webkitRTCPeerConnection&quot;, function(){
+
+					//window.top.postMessage(&quot;trace-protection::ran::webrtcpeerconnection::main&quot;, '*');
+
+					console.log(&quot;%c [Tr]-&gt;Protected[RTCPeerConnection] &quot;,&quot;font-size:1em;line-height:2em;color:#1a1a1a;background-color:#ffffff;border:.2em solid #0f0;&quot;);
+
+				});
+
+			}
+
+
+
+			if (settings[&quot;wrtcDataChannel&quot;][&quot;enabled&quot;] === true &amp;&amp; frame.RTCDataChannel){
+
+				doUpdateProp(frame, &quot;RTCDataChannel&quot;, function(){
+
+					//window.top.postMessage(&quot;trace-protection::ran::webrtcdataconnection::main&quot;, '*');
+
+					console.log(&quot;%c [Tr]-&gt;Protected[RTCDataChannel] &quot;,&quot;font-size:1em;line-height:2em;color:#1a1a1a;background-color:#ffffff;border:.2em solid #0f0;&quot;);
+
+				});
+
+			}
+
+
+
+			if (settings[&quot;wrtcRtpReceiver&quot;][&quot;enabled&quot;] === true &amp;&amp; frame.RTCRtpReceiver){
+
+				doUpdateProp(frame, &quot;RTCRtpReceiver&quot;, function(){
+
+					//window.top.postMessage(&quot;trace-protection::ran::webrtcrtpreceiver::main&quot;, '*');
+
+					console.log(&quot;%c [Tr]-&gt;Protected[RTCRtpReceiver] &quot;,&quot;font-size:1em;line-height:2em;color:#1a1a1a;background-color:#ffffff;border:.2em solid #0f0;&quot;);
+
+				});
+
+			}
+
+		})(frame,{&quot;enabled&quot;:true,&quot;wrtcInternal&quot;:{&quot;enabled&quot;:true},&quot;wrtcPeerConnection&quot;:{&quot;enabled&quot;:false},&quot;wrtcDataChannel&quot;:{&quot;enabled&quot;:false},&quot;wrtcRtpReceiver&quot;:{&quot;enabled&quot;:false},&quot;deviceEnumeration&quot;:{&quot;enabled&quot;:true}});
+				} else {
+					frame['tp_rGJFQSYsDrA_done'] = true;
+					//console.log(frame);
+				}
+			};
+
+			//console.log(window);
+			//console.log(self);
+			self['tp_rGJFQSYsDrA_func'](window);
+			//self['tp_rGJFQSYsDrA_func'](self);
+
+			[&quot;HTMLIFrameElement&quot;,&quot;HTMLFrameElement&quot;].forEach(function(el) {
+				var wind = self[el].prototype.__lookupGetter__('contentWindow'),
+					cont = self[el].prototype.__lookupGetter__('contentDocument');
+
+				Object.defineProperties(self[el].prototype,{
+					contentWindow:{
+						get:function(){
+							if (this.src &amp;&amp; this.src.indexOf('//') !== -1 &amp;&amp; location.host !== this.src.split('/')[2]) return wind.apply(this);
+
+							let frame = wind.apply(this);
+							if (frame) self['tp_rGJFQSYsDrA_func'](frame);
+
+							return frame;
+						}
+					},
+					contentDocument:{
+						get:function(){
+							if (this.src &amp;&amp; this.src.indexOf('//') !== -1 &amp;&amp; location.host !== this.src.split('/')[2]) return cont.apply(this);
+
+							let frame = cont.apply(this);
+							if (frame) self['tp_rGJFQSYsDrA_func'](frame);
+
+							return frame;
+						}
+					}
+				});
+			});</script><script>self['tp_tVdvqdeeapW_func'] = function(frame){
+				if (frame === null) {
+					console.error(&quot;Frame is null&quot;);
+					return;
+				}
+
+				if (!frame['tp_tVdvqdeeapW_done']) {
+					(function(frame, settings){
+
+			function doUpdateProp(obj, prop, newVal){
+
+				let props = Object.getOwnPropertyDescriptor(obj, prop) || {configurable:true};
+
+
+
+				if (!props[&quot;configurable&quot;]) {
+
+					//console.warn(&quot;Issue with property not being able to be configured.&quot;);
+
+					return;
+
+				}
+
+
+
+				props[&quot;value&quot;] = newVal;
+
+				Object.defineProperty(obj, prop, props);
+
+
+
+				return props;
+
+			}
+
+
+
+			// Generate offset
+
+			let off = Math.floor(Math.random()*100)/100;
+
+
+
+			function updatedRect(old,round,overwrite){
+
+				function genOffset(round,val){
+
+					return val + (round ? Math.round(off) : off);
+
+				}
+
+
+
+				let temp = overwrite === true ? old : new DOMRect();
+
+
+
+				temp.top 	= genOffset(round,old.top);
+
+				temp.right	= genOffset(round,old.right);
+
+				temp.bottom = genOffset(round,old.bottom);
+
+				temp.left 	= genOffset(round,old.left);
+
+				temp.width 	= genOffset(round,old.width);
+
+				temp.height = genOffset(round,old.height);
+
+				temp.x 		= genOffset(round,old.x);
+
+				temp.y 		= genOffset(round,old.y);
+
+
+
+				return temp;
+
+			}
+
+
+
+			function getClientRectsProtection(el){
+
+				if (window.location.host === &quot;docs.google.com&quot;) return;
+
+
+
+				let clientRects = frame[el].prototype.getClientRects;
+
+				doUpdateProp(frame[el].prototype,&quot;getClientRects&quot;,function(){
+
+					let rects = clientRects.apply(this,arguments);
+
+					let krect = Object.keys(rects);
+
+
+
+					let DOMRectList = function(){};
+
+					let list = new DOMRectList();
+
+					list.length = krect.length;
+
+					for (let i = 0;i&lt;list.length;i++){
+
+						if (krect[i] === &quot;length&quot;) continue;
+
+						list[i] = updatedRect(rects[krect[i]],false,false);
+
+					}
+
+
+
+					//window.top.postMessage(&quot;trace-protection::ran::clientrects::&quot; + el + &quot;get&quot;, '*');
+
+					return list;
+
+				});
+
+				doUpdateProp(frame[el].prototype.getClientRects, &quot;toString&quot;,function(){
+
+					//window.top.postMessage(&quot;trace-protection::ran::clientrects::&quot; + el + &quot;getstring&quot;, '*');
+
+					return &quot;getClientRects() { [native code] }&quot;;
+
+				});
+
+			}
+
+			function getBoundingClientRectsProtection(el){
+
+				let boundingRects = frame[el].prototype.getBoundingClientRect;
+
+				doUpdateProp(frame[el].prototype,&quot;getBoundingClientRect&quot;,function(){
+
+					let rect = boundingRects.apply(this,arguments);
+
+					if (this === undefined || this === null) return rect;
+
+
+
+					//window.top.postMessage(&quot;trace-protection::ran::clientrectsbounding::&quot; + el + &quot;get&quot;, '*');
+
+
+
+					return updatedRect(rect,true,true);
+
+				});
+
+				doUpdateProp(frame[el].prototype.getBoundingClientRect, &quot;toString&quot;,function(){
+
+					//window.top.postMessage(&quot;trace-protection::ran::clientrectsbounding::&quot; + el + &quot;getstring&quot;, '*');
+
+					return &quot;getBoundingClientRect() { [native code] }&quot;;
+
+				});
+
+			}
+
+
+
+			[&quot;Element&quot;,&quot;Range&quot;].forEach(function(el){
+
+				// Check for broken frames
+
+				if (frame[el] === undefined) return;
+
+
+
+				// getClientRects
+
+				if (settings[el.toLowerCase()][&quot;getclientrects&quot;][&quot;enabled&quot;]) getClientRectsProtection(el);
+
+
+
+				// getBoundingClientRect
+
+				if (settings[el.toLowerCase()][&quot;getboundingclientrects&quot;][&quot;enabled&quot;]) getBoundingClientRectsProtection(el);
+
+			});
+
+		})(frame,{&quot;enabled&quot;:true,&quot;element&quot;:{&quot;getclientrects&quot;:{&quot;enabled&quot;:true},&quot;getboundingclientrects&quot;:{&quot;enabled&quot;:false}},&quot;range&quot;:{&quot;getclientrects&quot;:{&quot;enabled&quot;:true},&quot;getboundingclientrects&quot;:{&quot;enabled&quot;:true}}});
+				} else {
+					frame['tp_tVdvqdeeapW_done'] = true;
+					//console.log(frame);
+				}
+			};
+
+			//console.log(window);
+			//console.log(self);
+			self['tp_tVdvqdeeapW_func'](window);
+			//self['tp_tVdvqdeeapW_func'](self);
+
+			[&quot;HTMLIFrameElement&quot;,&quot;HTMLFrameElement&quot;].forEach(function(el) {
+				var wind = self[el].prototype.__lookupGetter__('contentWindow'),
+					cont = self[el].prototype.__lookupGetter__('contentDocument');
+
+				Object.defineProperties(self[el].prototype,{
+					contentWindow:{
+						get:function(){
+							if (this.src &amp;&amp; this.src.indexOf('//') !== -1 &amp;&amp; location.host !== this.src.split('/')[2]) return wind.apply(this);
+
+							let frame = wind.apply(this);
+							if (frame) self['tp_tVdvqdeeapW_func'](frame);
+
+							return frame;
+						}
+					},
+					contentDocument:{
+						get:function(){
+							if (this.src &amp;&amp; this.src.indexOf('//') !== -1 &amp;&amp; location.host !== this.src.split('/')[2]) return cont.apply(this);
+
+							let frame = cont.apply(this);
+							if (frame) self['tp_tVdvqdeeapW_func'](frame);
+
+							return frame;
+						}
+					}
+				});
+			});</script><script>self['tp_ZEnwHPwTijY_func'] = function(frame){
+				if (frame === null) {
+					console.error(&quot;Frame is null&quot;);
+					return;
+				}
+
+				if (!frame['tp_ZEnwHPwTijY_done']) {
+					(function(frame, settings) {
+
+			if (!frame.navigator){
+
+				return;
+
+			}
+
+
+
+			// Random 2 dp value
+
+			settings[&quot;level&quot;] = Math.floor(Math.random()*100)/100;
+
+
+
+			function doUpdateProp(obj, prop, newVal){
+
+				let props = Object.getOwnPropertyDescriptor(obj, prop) || {configurable:true};
+
+
+
+				if (!props[&quot;configurable&quot;]) {
+
+					//console.warn(&quot;Issue with property not being able to be configured.&quot;);
+
+					return;
+
+				}
+
+
+
+				props[&quot;value&quot;] = newVal;
+
+				Object.defineProperty(obj, prop, props);
+
+
+
+				return props;
+
+			}
+
+
+
+			// To test: navigator.getBattery().then(a=&gt;console.log(a));
+
+
+
+			let BatteryPromise = new Promise(function(resolve, reject){
+
+				let BatteryManager = function(){
+
+					this.charging = true;
+
+					this.chargingTime = Infinity;
+
+					this.dischargingTime = Infinity;
+
+					this.level = settings[&quot;level&quot;];
+
+
+
+					this.onchargingchange = null;
+
+					this.onchargingtimechange = null;
+
+					this.ondischargingtimechange = null;
+
+					this.onlevelchange = null;
+
+
+
+					//window.top.postMessage(&quot;trace-protection::ran::battery::main&quot;, '*');
+
+				};
+
+
+
+				resolve(new BatteryManager())
+
+			});
+
+
+
+			doUpdateProp(frame.navigator,&quot;getBattery&quot;,function() {
+
+				return BatteryPromise;
+
+			});
+
+			doUpdateProp(frame.navigator.getBattery,&quot;toString&quot;,&quot;function getBattery() { [native code] }&quot;);
+
+		})(frame,{&quot;enabled&quot;:true});
+				} else {
+					frame['tp_ZEnwHPwTijY_done'] = true;
+					//console.log(frame);
+				}
+			};
+
+			//console.log(window);
+			//console.log(self);
+			self['tp_ZEnwHPwTijY_func'](window);
+			//self['tp_ZEnwHPwTijY_func'](self);
+
+			[&quot;HTMLIFrameElement&quot;,&quot;HTMLFrameElement&quot;].forEach(function(el) {
+				var wind = self[el].prototype.__lookupGetter__('contentWindow'),
+					cont = self[el].prototype.__lookupGetter__('contentDocument');
+
+				Object.defineProperties(self[el].prototype,{
+					contentWindow:{
+						get:function(){
+							if (this.src &amp;&amp; this.src.indexOf('//') !== -1 &amp;&amp; location.host !== this.src.split('/')[2]) return wind.apply(this);
+
+							let frame = wind.apply(this);
+							if (frame) self['tp_ZEnwHPwTijY_func'](frame);
+
+							return frame;
+						}
+					},
+					contentDocument:{
+						get:function(){
+							if (this.src &amp;&amp; this.src.indexOf('//') !== -1 &amp;&amp; location.host !== this.src.split('/')[2]) return cont.apply(this);
+
+							let frame = cont.apply(this);
+							if (frame) self['tp_ZEnwHPwTijY_func'](frame);
+
+							return frame;
+						}
+					}
+				});
+			});</script><script>self['tp_iCOUCRYfEgV_func'] = function(frame){
+				if (frame === null) {
+					console.error(&quot;Frame is null&quot;);
+					return;
+				}
+
+				if (!frame['tp_iCOUCRYfEgV_done']) {
+					(function(frame, settings) {
+
+			if (!settings[&quot;sendBeacon&quot;][&quot;enabled&quot;]) return;
+
+			if (!frame.navigator || !frame.navigator.sendBeacon){
+
+				return;
+
+			}
+
+
+
+			function doUpdateProp(obj, prop, newVal){
+
+				let props = Object.getOwnPropertyDescriptor(obj, prop) || {configurable:true};
+
+
+
+				if (!props[&quot;configurable&quot;]) {
+
+					//console.warn(&quot;Issue with property not being able to be configured.&quot;);
+
+					return;
+
+				}
+
+
+
+				props[&quot;value&quot;] = newVal;
+
+				Object.defineProperty(obj, prop, props);
+
+
+
+				return props;
+
+			}
+
+
+
+			doUpdateProp(frame.navigator,&quot;sendBeacon&quot;,function() {
+
+				//window.top.postMessage(&quot;trace-protection::ran::sendbeacon::main&quot;, '*');
+
+				return true;
+
+			});
+
+			doUpdateProp(frame.navigator.sendBeacon,&quot;toString&quot;,&quot;function sendBeacon() { [native code] }&quot;);
+
+		})(frame,{&quot;enabled&quot;:true,&quot;removePingAttr&quot;:{&quot;enabled&quot;:false},&quot;pingRequest&quot;:{&quot;enabled&quot;:true},&quot;sendBeacon&quot;:{&quot;enabled&quot;:true}});
+				} else {
+					frame['tp_iCOUCRYfEgV_done'] = true;
+					//console.log(frame);
+				}
+			};
+
+			//console.log(window);
+			//console.log(self);
+			self['tp_iCOUCRYfEgV_func'](window);
+			//self['tp_iCOUCRYfEgV_func'](self);
+
+			[&quot;HTMLIFrameElement&quot;,&quot;HTMLFrameElement&quot;].forEach(function(el) {
+				var wind = self[el].prototype.__lookupGetter__('contentWindow'),
+					cont = self[el].prototype.__lookupGetter__('contentDocument');
+
+				Object.defineProperties(self[el].prototype,{
+					contentWindow:{
+						get:function(){
+							if (this.src &amp;&amp; this.src.indexOf('//') !== -1 &amp;&amp; location.host !== this.src.split('/')[2]) return wind.apply(this);
+
+							let frame = wind.apply(this);
+							if (frame) self['tp_iCOUCRYfEgV_func'](frame);
+
+							return frame;
+						}
+					},
+					contentDocument:{
+						get:function(){
+							if (this.src &amp;&amp; this.src.indexOf('//') !== -1 &amp;&amp; location.host !== this.src.split('/')[2]) return cont.apply(this);
+
+							let frame = cont.apply(this);
+							if (frame) self['tp_iCOUCRYfEgV_func'](frame);
+
+							return frame;
+						}
+					}
+				});
+			});</script><script>self['tp_YpWrnxhWDGz_func'] = function(frame){
+				if (frame === null) {
+					console.error(&quot;Frame is null&quot;);
+					return;
+				}
+
+				if (!frame['tp_YpWrnxhWDGz_done']) {
+					(function(frame, settings){
+
+			if (!frame.navigator){
+
+				return;
+
+			}
+
+
+
+			function doUpdateProp(obj, prop, newVal){
+
+				let props = Object.getOwnPropertyDescriptor(obj, prop) || {configurable:true};
+
+
+
+				if (!props[&quot;configurable&quot;]) return;
+
+
+
+				props[&quot;value&quot;] = newVal;
+
+				Object.defineProperty(obj, prop, props);
+
+
+
+				return props;
+
+			}
+
+
+
+			[&quot;hardwareConcurrency&quot;, &quot;deviceMemory&quot;].forEach(function(hw){
+
+				if (!settings[&quot;hardware&quot;][hw][&quot;enabled&quot;]) return;
+
+
+
+				let newValue = settings[&quot;hardware&quot;][hw][&quot;value&quot;] || 4;
+
+
+
+				doUpdateProp(frame.navigator, hw, newValue);
+
+			});
+
+
+
+			if (settings[&quot;hardware&quot;][&quot;hwVrDisplays&quot;][&quot;enabled&quot;]) {
+
+				doUpdateProp(frame.navigator, &quot;getVRDisplays&quot;, undefined);
+
+				doUpdateProp(frame.navigator, &quot;activeVRDisplays&quot;, undefined);
+
+			}
+
+
+
+			if (settings[&quot;hardware&quot;][&quot;hwGamepads&quot;][&quot;enabled&quot;]){
+
+				doUpdateProp(frame.navigator, &quot;getGamepads&quot;, undefined);
+
+			}
+
+		})(frame,{&quot;enabled&quot;:true,&quot;hardware&quot;:{&quot;enabled&quot;:true,&quot;hardwareConcurrency&quot;:{&quot;enabled&quot;:true,&quot;value&quot;:4},&quot;deviceMemory&quot;:{&quot;enabled&quot;:true,&quot;value&quot;:4},&quot;hwVrDisplays&quot;:{&quot;enabled&quot;:true},&quot;hwGamepads&quot;:{&quot;enabled&quot;:true}}});
+				} else {
+					frame['tp_YpWrnxhWDGz_done'] = true;
+					//console.log(frame);
+				}
+			};
+
+			//console.log(window);
+			//console.log(self);
+			self['tp_YpWrnxhWDGz_func'](window);
+			//self['tp_YpWrnxhWDGz_func'](self);
+
+			[&quot;HTMLIFrameElement&quot;,&quot;HTMLFrameElement&quot;].forEach(function(el) {
+				var wind = self[el].prototype.__lookupGetter__('contentWindow'),
+					cont = self[el].prototype.__lookupGetter__('contentDocument');
+
+				Object.defineProperties(self[el].prototype,{
+					contentWindow:{
+						get:function(){
+							if (this.src &amp;&amp; this.src.indexOf('//') !== -1 &amp;&amp; location.host !== this.src.split('/')[2]) return wind.apply(this);
+
+							let frame = wind.apply(this);
+							if (frame) self['tp_YpWrnxhWDGz_func'](frame);
+
+							return frame;
+						}
+					},
+					contentDocument:{
+						get:function(){
+							if (this.src &amp;&amp; this.src.indexOf('//') !== -1 &amp;&amp; location.host !== this.src.split('/')[2]) return cont.apply(this);
+
+							let frame = cont.apply(this);
+							if (frame) self['tp_YpWrnxhWDGz_func'](frame);
+
+							return frame;
+						}
+					}
+				});
+			});</script><script>self['tp_pHyTyeUeKal_func'] = function(frame){
+				if (frame === null) {
+					console.error(&quot;Frame is null&quot;);
+					return;
+				}
+
+				if (!frame['tp_pHyTyeUeKal_done']) {
+					(function(frame, settings) {
+
+			if (!frame.HTMLCanvasElement){
+
+				//frame = window;
+
+				return;
+
+			}
+
+			//if (!frame.HTMLCanvasElement) return;
+
+
+
+			let rgba = [0,0,0,0];
+
+			if (settings[&quot;customRGBA&quot;][&quot;enabled&quot;]){
+
+				rgba = settings[&quot;customRGBA&quot;][&quot;rgba&quot;];
+
+			} else {
+
+				let rn = function(min,max){
+
+					return Math.floor(Math.random()*(max-min)+min);
+
+				};
+
+				rgba = [rn(0, 3), rn(0, 3), rn(0, 3), rn(0, 2)];
+
+			}
+
+
+
+
+
+			var injectIframes = function(el){
+
+				let injectionFrames = [&quot;iframe&quot;, &quot;frame&quot;];
+
+				if (injectionFrames.indexOf(el.tagName.toLowerCase()) === -1 || !el.contentWindow) return;
+
+
+
+				if (el.contentWindow.HTMLCanvasElement) spoofExtract(el.contentWindow.HTMLCanvasElement);
+
+				if (el.contentWindow.CanvasRenderingContext2D) spoofRender(el.contentWindow.CanvasRenderingContext2D);
+
+				if (el.contentWindow.Document) watchDocFunctions(el.contentWindow.Document);
+
+			};
+
+
+
+			var watchDocFunctions = function(root){
+
+				function docFunctions(old,name) {
+
+					Object.defineProperty(root.prototype,name,{
+
+						value: function() {
+
+							let el = old.apply(this, arguments);
+
+							if (el === null) return null;
+
+
+
+							if (Object.prototype.toString.call(el) === '[object HTMLCollection]' ||
+
+								Object.prototype.toString.call(el) === '[object NodeList]') {
+
+								for (let i = 0; i &lt; el.length; ++i) {
+
+									let elx = el[i];
+
+									injectIframes(elx);
+
+								}
+
+							} else {
+
+								injectIframes(el);
+
+							}
+
+							return el;
+
+						}
+
+					});
+
+				}
+
+
+
+				docFunctions(root.prototype.createElement,&quot;createElement&quot;);
+
+				docFunctions(root.prototype.getElementById,&quot;getElementById&quot;);
+
+				docFunctions(root.prototype.createElementNS,&quot;createElementNS&quot;);
+
+				docFunctions(root.prototype.getElementsByName,&quot;getElementsByName&quot;);
+
+				docFunctions(root.prototype.getElementsByTagName,&quot;getElementsByTagName&quot;);
+
+				docFunctions(root.prototype.getElementsByClassName,&quot;getElementsByClassName&quot;);
+
+				docFunctions(root.prototype.getElementsByTagNameNS,&quot;getElementsByTagNameNS&quot;);
+
+			};
+
+
+
+			var spoofExtract = function(root){
+
+				function blockExtraction(name, old){
+
+					Object.defineProperty(root.prototype,name,{
+
+						value:function(){
+
+							if (this === null) return old.apply(this,arguments);
+
+
+
+							let width = this.width;
+
+							let height = this.height;
+
+							let context = this.getContext(&quot;2d&quot;);
+
+
+
+							if (context === null) return old.apply(this,arguments);
+
+
+
+							let iData = context.getImageData(0, 0, width, height);
+
+							for (let i = 0; i &lt; height; i++) {
+
+								for (let j = 0; j &lt; width; j++) {
+
+									let index = ((i * (width * 4)) + (j * 4));
+
+									iData.data[index] 		= iData.data[index] + rgba[0];
+
+									iData.data[index + 1] 	= iData.data[index + 1] + rgba[1];
+
+									iData.data[index + 2] 	= iData.data[index + 2] + rgba[2];
+
+									iData.data[index + 3] 	= iData.data[index + 3] + rgba[3];
+
+								}
+
+							}
+
+							context.putImageData(iData,0,0);
+
+							return old.apply(this,arguments);
+
+						}
+
+					});
+
+				}
+
+
+
+				blockExtraction(&quot;toDataURL&quot;, root.prototype.toDataURL);
+
+				blockExtraction(&quot;toBlob&quot;, root.prototype.toBlob);
+
+			};
+
+			var spoofRender = function(root){
+
+				let getImageData = root.prototype.getImageData;
+
+				Object.defineProperty(root.prototype,&quot;getImageData&quot;,{
+
+					value:function(){
+
+						let iData = getImageData.apply(this, arguments);
+
+						let height = iData.height;
+
+						let width = iData.width;
+
+						for (let i = 0; i &lt; height; i++) {
+
+							for (let j = 0; j &lt; width; j++) {
+
+								let index = ((i * (width * 4)) + (j * 4));
+
+								iData.data[index] 		= iData.data[index] + rgba[0];
+
+								iData.data[index + 1] 	= iData.data[index + 1] + rgba[1];
+
+								iData.data[index + 2] 	= iData.data[index + 2] + rgba[2];
+
+								iData.data[index + 3] 	= iData.data[index + 3] + rgba[3];
+
+							}
+
+						}
+
+						return iData;
+
+					}
+
+				});
+
+			};
+
+
+
+			spoofExtract(frame.HTMLCanvasElement);
+
+			spoofRender(frame.CanvasRenderingContext2D);
+
+			watchDocFunctions(frame.Document);
+
+		})(frame,{&quot;enabled&quot;:true,&quot;customRGBA&quot;:{&quot;enabled&quot;:false,&quot;rgba&quot;:[0,0,0,0]}});
+				} else {
+					frame['tp_pHyTyeUeKal_done'] = true;
+					//console.log(frame);
+				}
+			};
+
+			//console.log(window);
+			//console.log(self);
+			self['tp_pHyTyeUeKal_func'](window);
+			//self['tp_pHyTyeUeKal_func'](self);
+
+			[&quot;HTMLIFrameElement&quot;,&quot;HTMLFrameElement&quot;].forEach(function(el) {
+				var wind = self[el].prototype.__lookupGetter__('contentWindow'),
+					cont = self[el].prototype.__lookupGetter__('contentDocument');
+
+				Object.defineProperties(self[el].prototype,{
+					contentWindow:{
+						get:function(){
+							if (this.src &amp;&amp; this.src.indexOf('//') !== -1 &amp;&amp; location.host !== this.src.split('/')[2]) return wind.apply(this);
+
+							let frame = wind.apply(this);
+							if (frame) self['tp_pHyTyeUeKal_func'](frame);
+
+							return frame;
+						}
+					},
+					contentDocument:{
+						get:function(){
+							if (this.src &amp;&amp; this.src.indexOf('//') !== -1 &amp;&amp; location.host !== this.src.split('/')[2]) return cont.apply(this);
+
+							let frame = cont.apply(this);
+							if (frame) self['tp_pHyTyeUeKal_func'](frame);
+
+							return frame;
+						}
+					}
+				});
+			});</script>
+<svg:g
+   id="g14">
+	<svg:path
+   fill-rule="evenodd"
+   clip-rule="evenodd"
+   fill="#faa21b"
+   d="m 45.2,21.895 c 24.751,0 44.853,19.896 45.192,44.566 H 90.4 v 0.634 45.2 H 45.2 44.683 v -0.006 C 19.958,112.011 0,91.886 0,67.095 0,42.131 20.237,21.895 45.2,21.895 Z m -0.098,18.364 c -14.447,0 -26.159,12.015 -26.159,26.835 0,14.718 11.55,26.667 25.86,26.832 v 0.003 h 0.299 26.159 V 67.095 66.719 H 71.256 C 71.06,52.071 59.426,40.259 45.102,40.259 Z"
+   id="path2"
+   style="fill:#ffffff;fill-opacity:1" />
+	<svg:path
+   fill-rule="evenodd"
+   clip-rule="evenodd"
+   fill="#ffffff"
+   d="m 45.2,210.766 c 24.751,0 44.853,-19.896 45.192,-44.566 H 90.4 v -0.634 -45.2 H 45.2 44.683 v 0.006 C 19.958,120.65 0,140.775 0,165.566 c 0,24.962 20.237,45.2 45.2,45.2 z m -0.098,-18.365 c -14.447,0 -26.159,-12.015 -26.159,-26.835 0,-14.718 11.55,-26.667 25.86,-26.832 v -0.003 h 0.299 26.159 v 26.835 0.376 h -0.005 c -0.196,14.647 -11.83,26.459 -26.154,26.459 z"
+   id="path4"
+   style="fill:#ffffff;fill-opacity:1" />
+	<svg:path
+   fill-rule="evenodd"
+   clip-rule="evenodd"
+   fill="#ffffff"
+   d="m 98.542,0.008 c 9,-0.204 17.93,3.545 19.049,20.216 v 38.209 h 28.107 c 19.462,-0.382 25.341,-20.076 24.511,-35.74 h 18.93 c 0.93,25.328 -7.374,37.651 -18.424,44.506 11.051,6.855 19.354,19.178 18.424,44.506 h -18.93 c 0.92,-17.349 -2.17,-30.688 -23.86,-35.727 L 117.59,76.14 v 18.261 c -7.856,0.787 -10.332,0.971 -19.049,9.653 V 0.008 Z"
+   id="path6"
+   style="fill:#ffffff;fill-opacity:1" />
+	<svg:path
+   fill-rule="evenodd"
+   clip-rule="evenodd"
+   fill="#faa21b"
+   d="m 117.863,117.782 v -17.263 c -9.81,0 -17.839,7.62 -18.496,17.263 l -0.044,1.276 v 17.263 c 9.81,0 17.839,-7.62 18.495,-17.263 z"
+   id="path8"
+   style="fill:#ffffff;fill-opacity:1" />
+	<svg:path
+   fill-rule="evenodd"
+   clip-rule="evenodd"
+   fill="#ffffff"
+   d="m 170.043,120.958 h 18.579 l -0.031,36.897 c -0.656,9.644 -8.686,17.263 -18.496,17.263 v -17.263 z"
+   id="path10"
+   style="fill:#ffffff;fill-opacity:1" />
+	<svg:path
+   fill-rule="evenodd"
+   clip-rule="evenodd"
+   fill="#ffffff"
+   d="m 99.522,142.71 c 8.802,-0.187 15.365,-4.473 18.577,-9.317 l -0.031,61.122 c -0.656,9.644 -8.686,17.263 -18.496,17.263 v -17.263 z"
+   id="path12"
+   style="fill:#ffffff;fill-opacity:1" />
+</svg:g>
+</svg:svg>
