@@ -114,6 +114,7 @@ body {
 input[type="text"]:focus,
 input[type="email"]:focus {
   outline: 1px solid var(--dark);
+  box-shadow: 0 0 15px #141f3533;
   font-weight: 600;
 }
 
@@ -123,6 +124,7 @@ input[type="email"]:focus {
 
 .success>input:focus {
   outline: 2px solid #28a745;
+  box-shadow: 0 0 15px #28a74655;
 }
 
 .error>input {
@@ -131,6 +133,7 @@ input[type="email"]:focus {
 
 .error>input:focus {
   outline: 2px solid #dc3545;
+  box-shadow: 0 0 15px #dc354655;
 }
 
 .error small {
